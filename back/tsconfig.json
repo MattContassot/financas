@@ -7,7 +7,7 @@
     "rootDir": "./src",
     "strict": true,
     "moduleResolution": "node",
-    "baseUrl": ".", 
+    "baseUrl": ".",
     "forceConsistentCasingInFileNames": true,
     "resolveJsonModule": true,
     "experimentalDecorators": true,
@@ -19,6 +19,6 @@
       "*": ["node_modules/*"]
     }
   },
-  "include": ["src/**/*"],
+  "include": ["src/**/*", ".eslintrc.js"],
   // "exclude": ["src/tests"]
 }

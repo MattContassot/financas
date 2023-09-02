@@ -9,7 +9,7 @@
     "build": "cross-env NODE_ENV=dev tsc -p .",
     "build:prod": "cross-env NODE_ENV=prod tsc -p .",
     "coverage": "cross-env NODE_ENV=dev jest --coverage --no-cache --detectOpenHandles",
-    "lint": "cross-env NODE_ENV=dev eslint --no-inline-config --no-error-on-unmatched-pattern -c .eslintrc.json . --ext .ts",
+    "lint": "cross-env NODE_ENV=dev eslint --no-inline-config --no-error-on-unmatched-pattern -c .eslintrc.js . --ext .ts",
     "typeorm": "cross-env NODE_ENV=dev typeorm-ts-node-commonjs",
     "migration:show": "npm run typeorm -- migration:show -d ./src/database/db.ts",
     "migration:run": "npm run typeorm -- migration:run -d ./src/database/db.ts",
