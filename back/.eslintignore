@@ -1,0 +1,5 @@
+nyc.config.js
+node_modules/
+build/
+*.config.ts
+```
