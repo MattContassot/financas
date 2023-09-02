@@ -12,5 +12,4 @@
 /build
 
 # misc
-.env.local
 reports/jest-junit.xml
