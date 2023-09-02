@@ -27,47 +27,47 @@ module.exports = {
     'no-console': 'off',
     camelcase: 'warn',
     'arrow-parens': [2, 'always'],
-  //   no-promise-executor-return: off,
-  //   quotes: [2, single],
-  //   implicit-arrow-linebreak: off,
-  //   consistent-return: off,
-  //   @typescript-eslint/type-annotation-spacing: [error, { before: false, after: true }],
-  //   @typescript-eslint/naming-convention: [
-  //     error,
-  //     {
-  //       selector: property,
-  //       format: [strictCamelCase],
-  //       filter: {
-  //         regex: ^_,
-  //         match: false
-  //       }
-  //     }
-  //   ],
-  //   @typescript-eslint/no-unused-vars: [
-  //     error,
-  //     {
-  //       argsIgnorePattern: ^_,
-  //       ignoreRestSiblings: true
-  //     }
-  //   ],
-  //   @typescript-eslint/lines-between-class-members: [
-  //     error,
-  //     always,
-  //     { exceptAfterSingleLine: true }
-  //   ],
-  //   no-unused-vars: [
-  //     error,
-  //     {
-  //       argsIgnorePattern: ^_,
-  //       ignoreRestSiblings: true
-  //     }
-  //   ],
-  //   import/no-import-module-exports: [error, { exceptions: [
-  //     **/middlewares/mainValidations.ts,
-  //     **/middlewares/permissions.ts,
-  //     **/middlewares/validations.ts
-  //   ] }],
-  //   object-curly-newline: off,
+    //   no-promise-executor-return: off,
+    //   quotes: [2, single],
+    //   implicit-arrow-linebreak: off,
+    //   consistent-return: off,
+    //   @typescript-eslint/type-annotation-spacing: [error, { before: false, after: true }],
+    //   @typescript-eslint/naming-convention: [
+    //     error,
+    //     {
+    //       selector: property,
+    //       format: [strictCamelCase],
+    //       filter: {
+    //         regex: ^_,
+    //         match: false
+    //       }
+    //     }
+    //   ],
+    //   @typescript-eslint/no-unused-vars: [
+    //     error,
+    //     {
+    //       argsIgnorePattern: ^_,
+    //       ignoreRestSiblings: true
+    //     }
+    //   ],
+    //   @typescript-eslint/lines-between-class-members: [
+    //     error,
+    //     always,
+    //     { exceptAfterSingleLine: true }
+    //   ],
+    //   no-unused-vars: [
+    //     error,
+    //     {
+    //       argsIgnorePattern: ^_,
+    //       ignoreRestSiblings: true
+    //     }
+    //   ],
+    //   import/no-import-module-exports: [error, { exceptions: [
+    //     **/middlewares/mainValidations.ts,
+    //     **/middlewares/permissions.ts,
+    //     **/middlewares/validations.ts
+    //   ] }],
+    'object-curly-newline': 'off',
   //   template-curly-spacing: [error, always],
   //   max-params: [warn, 4],
   //   max-lines: off,
